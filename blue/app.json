@@ -18,10 +18,15 @@
         "list": [
             {
                 "pagePath": "pages/home/home",
+                "iconPath": "/res/home.png",
+                "selectedIconPath": "/res/home_s.png",
                 "text": "首页"
+
             },
             {
                 "pagePath": "pages/mine/mine",
+                "iconPath": "/res/myy.png",
+                "selectedIconPath": "/res/myy_s.png",
                 "text": "我的"
             }
         ]
