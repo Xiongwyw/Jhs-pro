@@ -1,0 +1,52 @@
+/* pages/home/home.wxss */
+page{
+    background-color: #f8f8f8;
+}
+.list-body{
+    margin: 5px 0px 0px 0px;
+}
+
+.list-item{
+    display: flex;
+    flex-direction: row;
+    margin: 0px 0px 10px 0px;
+    height: 100px;
+    background-color: #fff;
+    align-items: center;
+}
+
+.list-item-logo{
+    margin-left: 10px;
+    width: 80px;
+    height: 80px;
+    border-radius: 3px;
+}
+
+.list-item-content{
+    margin-left: 18px;
+    display: flex;
+    flex-direction: column;
+}
+
+.list-item-title{
+    color: #707478;
+    font-size: 34rpx;
+}
+
+.list-item-summary{
+    color: #aeb3bc;
+    font-size: 26rpx;
+}
+
+.list-item-desc{
+    width: 48px;
+    color: #d9bea1;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 3px;
+    font-size: 24rpx;
+    margin-top: 3px;
+}
+
+
+
