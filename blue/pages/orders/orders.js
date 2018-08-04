@@ -1,16 +1,11 @@
-// pages/mine/mine.js
+// pages/orders/orders.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-      order:[{id:"all", text: "全部订单", image: "order.png"},
-            {id:"payfor", text: "等待付款", image: "payfor.png"},
-            {id: "receive", text: "等待收货", image: "receive.png"},
-            {id: "cancel", text: "取消订单", image: "cancel.png"}],
-      connect: [{ id: "custome", text: "联系客服", image: "custome.png" },
-                { id: "suggest", text: "建议反馈", image: "feedback.png" }]
+  
   },
 
   /**

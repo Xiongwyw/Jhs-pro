@@ -1,2 +1,27 @@
 <!--pages/mine/mine.wxml-->
-<text>pages/mine/mine.wxml</text>
+<view>
+    <view class='userinfo'>
+        <image class='userIcon' src='/res/journey.jpg'></image>
+        <view class='userName'>Holy</view>
+    </view>
+
+    <view class='list-content'>
+        <block wx:for-items="{{order}}" wx:key="{{item.id}}">
+            <navigator url='/pages/orders/orders' class='list-item'>
+                <image class='list-item-left-icon' src='/res/{{item.image}}'></image>
+                <view class='list-item-text'>{{item.text}}</view>
+                <view class='list-item-arrow'></view>
+            </navigator>
+        </block>
+    </view>
+
+    <view class='list-content'>
+        <block wx:for-items="{{connect}}" wx:key="{{item.id}}">
+            <navigator url='/pages/orders/orders' class='list-item'>
+                <image class='list-item-left-icon' src='/res/{{item.image}}'></image>
+                <view class='list-item-text'>{{item.text}}</view>
+                <view class='list-item-arrow'></view>
+            </navigator>
+        </block>
+    </view>
+</view>

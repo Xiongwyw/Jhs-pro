@@ -3,7 +3,8 @@
         "pages/home/home",
         "pages/index/index",
         "pages/logs/logs",
-        "pages/mine/mine"
+        "pages/mine/mine",
+        "pages/orders/orders"
     ],
     "window": {
         "backgroundTextStyle": "light",
@@ -23,7 +24,6 @@
                 "iconPath": "/res/home.png",
                 "selectedIconPath": "/res/home_s.png",
                 "text": "首页"
-
             },
             {
                 "pagePath": "pages/mine/mine",

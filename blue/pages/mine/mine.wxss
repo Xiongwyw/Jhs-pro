@@ -1,1 +1,87 @@
-/* pages/mine/mine.wxss */
+page{
+    background-color: #f8f8f8;
+}
+.userinfo{
+    display: flex;
+    flex-direction: row;
+    margin: 18px 0px 0px 0px;
+    height: 86px;
+    background-color: #fff;
+    align-items: center;
+}
+
+.userIcon{
+    margin-left: 10px;
+    width: 64px;
+    height: 64px;
+    border-radius: 3px;
+}
+
+.userName{
+    margin-left: 10px;
+    color: #707478;
+    font-size: 34rpx;
+}
+
+.list-content{
+    display: flex;
+    flex-direction: column;
+    margin: 18px 0px 0px 0px;
+    width: 100%;
+    background-color: #fff;
+}
+
+.list-item{
+    display: flex;
+    position: relative;
+    height: 40px;
+    align-items: center;
+}
+
+.list-item::before{
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  top: 0;
+  border-top: 1rpx solid #D8D8D8;
+  color: #D8D8D8;
+}
+
+.list-item:first-child::before{
+    display: none;
+}
+
+.list-item-left-icon{
+    margin-left: 10px;
+    width: 18px;
+    height: 18px;
+}
+
+.list-item-arrow{
+    margin-right: 10px;
+    position: relative;
+    width: 24px;
+    height: 24px;
+}
+.list-item-arrow:after {
+  content: " ";
+  display: inline-block;
+  height: 18rpx;
+  width: 18rpx;
+  border-width: 2rpx 2rpx 0 0;
+  border-color: #888888;
+  border-style: solid;
+  transform: matrix(0.71, 0.71, -0.71, 0.71, 0, 0);
+  position: absolute;
+  top: 50%;
+  margin-top: -8rpx;
+  right: 28rpx;
+}
+
+.list-item-text{
+    margin-left: 10px;
+    color: #707478;
+    font-size: 30rpx;
+    flex: 1;
+}

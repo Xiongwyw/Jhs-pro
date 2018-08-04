@@ -1,7 +1,7 @@
 <!--pages/home/home.wxml-->
 <view>
     <view>
-        <swiper class="swiper-body" indicator-dots='true' indicator-color='#e8ecef' indicator-active-color='#fff' autoplay='true' circular='true'>
+        <swiper class="swiper-body" indicator-dots='true' indicator-color='#c7c7c7' indicator-active-color='#fff' autoplay='true' circular='true'>
             <block wx:for="{{imgUrls}}">
                 <swiper-item>
                     <image src="{{item}}" mode='scaleToFill' style='width: 375px; height: 184px;'/>
@@ -13,14 +13,14 @@
     <view>
         <view class="list-body">
             <block wx:for-items="{{list}}" wx:key="{{item.id}}">
-                <view class="list-item">
+                <navigator class="list-item" url='/pages/orders/orders'>
                     <image class="list-item-logo" src='/res/{{item.image}}' />
                     <view class="list-item-content">
                         <view class="list-item-title">{{item.title}}</view>
                         <view class="list-item-summary">{{item.summary}}</view>
                         <view class="list-item-desc" wx:if="{{item.desc}}">{{item.desc}}</view>
                     </view>
-                </view>
+                </navigator>
             </block>
         </view>
     </view>
