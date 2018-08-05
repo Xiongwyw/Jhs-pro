@@ -12,9 +12,9 @@ Page({
           "/res/journey4.jpg"
       ],
       list: [
-          { id: "Journey", image: "journey.jpg", title: "旅游向导", summary: "最全最新九华旅游咨询"},
-          { id: "Insense", image: "insense.jpg", title: "进香请愿", summary: "质量保证，价格透明，全景区配送", desc:"货到付款"},
-          {id: "hotel",   image: "hotel.jpg",   title: "住宿交通", summary: "酒店民宿，满足你不同的游玩体验"}
+          { id: "Journey", image: "journey.jpg", url: "journey", title: "旅游向导", summary: "最全最新九华旅游咨询"},
+          { id: "Insense", image: "insense.jpg", url: "goods", title: "进香请愿", summary: "质量保证，价格透明，全景区配送", desc:"货到付款"},
+          { id: "hotel", image: "hotel.jpg", url: "journey",  title: "住宿交通", summary: "酒店民宿，满足你不同的游玩体验"}
       ]
   },
 

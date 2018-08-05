@@ -1,0 +1,16 @@
+<!--pages/journey/journey.wxml-->
+<view>
+    <view class='list_journey'>
+        <block wx:for-items="{{goods}}" wx:key="{{item.id}}">
+            <navigator url='/pages/orders/orders'>
+                <view class='journey_item'>
+                    <image class='journey_image' src='{{item.image}}'></image>
+                    <view class='journey_info'>
+                        <view class='title_text'>{{item.title}}</view>
+                        <view class='read_text'>{{item.reads}} 浏览</view>
+                    </view>
+                </view>
+            </navigator>
+        </block>
+    </view>
+</view>

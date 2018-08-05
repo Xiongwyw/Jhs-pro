@@ -13,7 +13,7 @@
     <view>
         <view class="list-body">
             <block wx:for-items="{{list}}" wx:key="{{item.id}}">
-                <navigator class="list-item" url='/pages/orders/orders'>
+                <navigator class="list-item" url='/pages/{{item.url}}/{{item.url}}'>
                     <image class="list-item-logo" src='/res/{{item.image}}' />
                     <view class="list-item-content">
                         <view class="list-item-title">{{item.title}}</view>

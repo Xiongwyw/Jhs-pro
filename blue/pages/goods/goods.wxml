@@ -1,0 +1,20 @@
+<!--pages/goods/goods.wxml-->
+<view>
+    <view class='list_goods'>
+        <block wx:for-items="{{goods}}" wx:key="{{item.id}}">
+            <navigator url='/pages/orders/orders'>
+                <view class='goods_item'>
+                    <image class='goods_image' src='{{item.image}}'></image>
+                    <view class='goods_info'>
+                        <view class='title_text'>{{item.title}}</view>
+                        <!--<view class='summary_text'>{{item.sumary}}</view>-->
+                        <view class='price_shop'>
+                            <view class='price_text'>￥{{item.price}}</view>
+                            <image class='shop_image' src='/res/shopcar_red_b.png'></image>
+                        </view>
+                    </view>
+                </view>
+            </navigator>
+        </block>
+    </view>
+</view>

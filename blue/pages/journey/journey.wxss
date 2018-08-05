@@ -1,0 +1,42 @@
+/* pages/journey/journey.wxss */
+/* pages/goods/goods.wxss */
+page{
+    background-color: #f8f8f8;
+}
+.list_journey{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 10px 10px 10px;
+}
+
+.journey_item{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 3px;
+    margin-top: 12px;
+}
+
+.journey_image{
+    width: 355px;
+    height: 178px;
+    border-radius: 3px;
+}
+
+.journey_info{
+    display: flex;
+    flex-direction: row;
+    padding: 6px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title_text{
+    color: #707478;
+    font-size: 34rpx;
+}
+
+.read_text{
+    color: #aeb3bc;
+    font-size: 26rpx;
+}
