@@ -1,0 +1,16 @@
+<!--pages/hotel/hotel.wxml-->
+<view>
+    <view class='list_hotels'>
+        <block wx:for-items="{{hotels}}" wx:key="{{item.id}}">
+            <navigator url='/pages/orders/orders'>
+                <view class='hotel_item'>
+                    <image class='hotel_image' src='{{item.image}}'></image>
+                    <view class='hotel_info'>
+                        <view class='title_text'>{{item.title}}</view>
+                        <view class='price_text'>￥{{item.price}}</view>
+                    </view>
+                </view>
+            </navigator>
+        </block>
+    </view>
+</view>

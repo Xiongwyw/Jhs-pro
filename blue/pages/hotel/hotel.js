@@ -1,21 +1,18 @@
-// pages/home/home.js
+// pages/hotel/hotel.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-      imgUrls: [
-          "/res/journey1.jpg",
-          "/res/journey2.jpg",
-          "/res/journey3.jpg",
-          "/res/journey4.jpg"
-      ],
-      list: [
-          { id: "Journey", image: "journey.jpg", url: "journey", title: "旅游向导", summary: "最全最新九华旅游咨询"},
-          { id: "Insense", image: "insense.jpg", url: "goods", title: "进香请愿", summary: "质量保证，价格透明，全景区配送", desc:"货到付款"},
-          { id: "hotel", image: "hotel.jpg", url: "hotel",  title: "住宿交通", summary: "酒店民宿，满足你不同的游玩体验"}
-      ]
+        hotels: [{ id: "1", image: "/res/journey.jpg", title: "柯村新区",  price: "120.00" },
+            { id: "2", image: "/res/journey.jpg", title: "柯村新区",  price: "120.00" },
+            { id: "3", image: "/res/journey.jpg", title: "柯村新区",  price: "146.00" },
+            { id: "4", image: "/res/journey.jpg", title: "柯村新区",  price: "80.00" },
+            { id: "5", image: "/res/journey.jpg", title: "柯村新区",  price: "90.00" },
+            { id: "6", image: "/res/journey.jpg", title: "九华街",  price: "170.00" },
+            { id: "7", image: "/res/journey.jpg", title: "九华街",  price: "320.00" },
+            { id: "8", image: "/res/journey.jpg", title: "九华街",  price: "670.00" }]
   },
 
   /**

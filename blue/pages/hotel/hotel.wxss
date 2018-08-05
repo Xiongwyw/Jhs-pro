@@ -1,0 +1,40 @@
+/* pages/hotel/hotel.wxss */
+page{
+    background-color: #f8f8f8;
+}
+.list_hotels{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 10px 10px 10px;
+}
+
+.hotel_item{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 3px;
+    margin-top: 12px;
+}
+
+.hotel_image{
+    width: 355px;
+    height: 178px;
+    border-radius: 3px;
+}
+
+.hotel_info{
+    display: flex;
+    flex-direction: column;
+    padding: 6px;
+}
+.title_text{
+    color: #707478;
+    font-size: 30rpx;
+}
+
+.price_text{
+    color: #fc484f;
+    font-size: 34rpx;
+    font-weight: bolder;
+    padding-top: 5px;
+}

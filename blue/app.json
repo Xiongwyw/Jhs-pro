@@ -6,7 +6,8 @@
         "pages/mine/mine",
         "pages/orders/orders",
         "pages/goods/goods",
-        "pages/journey/journey"
+        "pages/journey/journey",
+        "pages/hotel/hotel"
     ],
     "window": {
         "backgroundTextStyle": "light",
