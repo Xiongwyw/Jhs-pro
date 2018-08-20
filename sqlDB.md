@@ -23,7 +23,7 @@
 * Cash: 金额
 * Cashback:返现金额
 * Date: 日期
-* Status: 状态
+* Status: 状态(0:待发货，1：待收货，2：确认收货， 3：取消订单)
 * Remarks: 备注
 */
 
@@ -36,6 +36,7 @@
 * Price: 价格
 * Cashback-rate:返现率
 * Cost-price: 成本价
-* Status:状态
+* Status:状态（0：待上架， 1：下架， 2： 上架， 3：缺货）
 * Date: 上架日期
+* Data: 下架日期
 */
