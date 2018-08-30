@@ -1,8 +1,9 @@
 <!--pages/mine/mine.wxml-->
 <view>
     <view class='userinfo'>
-        <image class='userIcon' src='/res/journey.jpg'></image>
-        <view class='userName'>Holy</view>
+        <image class='userIcon' src="{{logged ? userInfo.avatarUrl : '/res/myy.png'}}"></image>
+            <button class='userName' wx:if="{{!logged}}" open-type="getUserInfo" bindgetuserinfo="bindGetUserInfo">未登录</button>
+            <view class='userName' wx:else>{{userInfo.nickName}}</view>
     </view>
 
     <view class='list-content'>

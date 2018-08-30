@@ -21,6 +21,11 @@ page{
     margin-left: 10px;
     color: #707478;
     font-size: 34rpx;
+    background-color: #fff;
+}
+
+.userName::after{
+    border: none;
 }
 
 .list-content{
